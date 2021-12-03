@@ -8,7 +8,7 @@ spec:
         repoURL: https://github.com/jimmyjones2/applicationset.git
         revision: HEAD
         files:
-        - path: "examples/git-generator-files-discovery/cluster-config/**/config.json"
+        - path: "cluster-config/**/config.json"
   template:
     metadata:
       name: '{{cluster.name}}-guestbook'
