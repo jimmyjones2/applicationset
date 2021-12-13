@@ -4,6 +4,8 @@ cluster:
   owner: "cluster-admin@company.com"
   name: "engineering-staging"
   address: "http://1.2.3.4"
+empty: null
+emptys: ''
 hv:
   common: |
     abc: def
