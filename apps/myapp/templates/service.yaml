@@ -4,6 +4,7 @@ metadata:
   name: testservice
   labels:
     environment: {{ .Values.myapp.env }}
+    suffix: {{ .Values.global.suffix }}
 spec:
   type: ClusterIP
   ports:
