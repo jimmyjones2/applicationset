@@ -1,5 +1,5 @@
-subchart1:
-  dessert: ice cream
+#subchart1:
+#  dessert: ice cream
 
 image:
   repository: nginx
