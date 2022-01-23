@@ -1,0 +1,16 @@
+name: myapp2
+repoURL: https://github.com/jimmyjones2/applicationset.git
+targetRevision: HEAD
+applicationPath: apps/myapp2
+values_key: myapp
+values: |
+  prod: &prod
+    env: production
+    foo: baz
+    app: myapp
+  dev: &dev
+    <<: *prod
+    env: development
+  sta: &sta
+    <<: *prod
+    env: staging
