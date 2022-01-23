@@ -2,6 +2,7 @@ name: myapp
 repoURL: https://github.com/jimmyjones2/applicationset.git
 targetRevision: HEAD
 applicationPath: apps/myapp
+values_key: myapp
 values: |
   prod: &prod
     env: prod
