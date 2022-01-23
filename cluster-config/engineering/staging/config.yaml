@@ -12,3 +12,14 @@ hv:
     ghi: hij
   staging: |
     abc: ggg
+values: |
+  prod: &prod
+    env: prod
+    foo: baz
+    app: myapp
+  dev:
+    <<: *prod
+    env: dev
+  sta:
+    <<: *prod
+    env: prod
