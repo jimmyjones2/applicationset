@@ -17,9 +17,9 @@ values: |
     env: prod
     foo: baz
     app: myapp
-  dev:
+  dev: &dev
     <<: *prod
     env: dev
-  sta:
+  sta: &sta
     <<: *prod
     env: prod
