@@ -4,7 +4,6 @@ targetRevision: HEAD
 applicationPath: apps/myapp
 values_key: myapp
 values: |
-  myapp.image: docker.io/foobar:latest
   prod: &prod
     env: production
     foo: baz
