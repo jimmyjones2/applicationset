@@ -8,11 +8,12 @@ values: |
     env: produdction
     foo: baz
     app: myapp
-    subchart1:
-      dessert: cookies
+    dessert: cookies
   dev: &dev
     <<: *prod
     env: development
   sta: &sta
     <<: *prod
     env: staging
+values_subchart:
+  subchart1: *myapp
