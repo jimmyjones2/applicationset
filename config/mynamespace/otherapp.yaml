@@ -5,12 +5,12 @@ applicationPath: apps/myapp
 values_key: myapp
 values: |
   prod: &prod
-    env: prod
+    env: produdction
     foo: baz
     app: myapp
   dev: &dev
     <<: *prod
-    env: dev
+    env: development
   sta: &sta
     <<: *prod
-    env: sta
+    env: staging
