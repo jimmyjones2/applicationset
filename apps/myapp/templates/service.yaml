@@ -1,16 +1,16 @@
-#apiVersion: v1
-#kind: Service
-#metadata:
-#  name: testservice
-#  labels:
-#    environment: {{ .Values.myapp.env }}
-#    suffix: {{ .Values.global.suffix }}
-#spec:
-#  type: ClusterIP
-#  ports:
-#    - port: 8080
-#      targetPort: http
-#      protocol: TCP
-#      name: http
-#  selector:
-#    app: {{ .Values.myapp.app }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: testservice
+  labels:
+    environment: {{ .Values.myapp.env }}
+    suffix: {{ .Values.global.suffix }}
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ .Values.myapp.app }}
