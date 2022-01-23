@@ -1,0 +1,15 @@
+name: myapp
+repoURL: https://github.com/jimmyjones2/applicationset.git
+targetRevision: HEAD
+path: apps/guestbook
+values: |
+  prod: &prod
+    env: prod
+    foo: baz
+    app: myapp
+  dev: &dev
+    <<: *prod
+    env: dev
+  sta: &sta
+    <<: *prod
+    env: prod
