@@ -8,6 +8,8 @@ values: |
     env: produdction
     foo: baz
     app: myapp
+    subchart1:
+      dessert: cookies
   dev: &dev
     <<: *prod
     env: development
