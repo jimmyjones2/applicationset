@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: testservice
   labels:
-    environment: {{ .Values.env }}
+    environment: {{ .Values.myapp.env }}
 spec:
   type: ClusterIP
   ports:
