@@ -13,4 +13,4 @@ values: |
     env: dev
   sta: &sta
     <<: *prod
-    env: prod
+    env: sta
