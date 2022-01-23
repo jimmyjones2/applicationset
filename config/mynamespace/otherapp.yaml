@@ -15,5 +15,5 @@ values: |
   sta: &sta
     <<: *prod
     env: staging
-values_subchart:
+values_subchart: |
   subchart1: *myapp
