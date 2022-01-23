@@ -1,4 +1,5 @@
-subchart1.app: sub1
+subchart1:
+  dessert: ice cream
 
 image:
   repository: nginx
