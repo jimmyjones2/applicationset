@@ -1,7 +1,7 @@
 name: myapp
 repoURL: https://github.com/jimmyjones2/applicationset.git
 targetRevision: HEAD
-path: apps/guestbook
+applicationPath: apps/guestbook
 values: |
   prod: &prod
     env: prod
