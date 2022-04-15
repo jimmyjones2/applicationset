@@ -27,3 +27,6 @@ dependencies:
 - name: subchart2
   version: "1.2.3"
   repository: "file://../dependency_chart/subchart2"
+- name: foobar
+  version: 1.0.0
+  repository: http://192.168.39.223:8082
