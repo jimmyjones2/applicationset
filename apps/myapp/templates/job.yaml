@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: curl
-          image: curlimage/curl
+          image: curlimages/curl
           command: [ "/usr/bin/curl", "google.com" ]
       restartPolicy: Never
   backoffLimit: 0
