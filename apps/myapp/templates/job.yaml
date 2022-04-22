@@ -13,7 +13,7 @@ spec:
           image: curl
           command: [ "/usr/bin/curl", "google.com" ]
       restartPolicy: Never
-    backoffLimit: 0
+  backoffLimit: 0
 ---
 apiVersion: batch/v1
 kind: Job
@@ -30,4 +30,4 @@ spec:
           image: curl
           command: [ "/usr/bin/curl", "facebook.com" ]
       restartPolicy: Never
-    backoffLimit: 0
+  backoffLimit: 0
